@@ -52,7 +52,7 @@ body {
   height: 100vh;
   display: flex;
   flex-direction: column;
-  background-image: url(/img/peter-gargiulo-cGNCepznaV8-unsplash.jpg); }
+  background-image: url(./img/peter-gargiulo-cGNCepznaV8-unsplash.jpg); }
   .header__title {
     flex: 1;
     display: grid;
