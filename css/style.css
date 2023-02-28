@@ -99,6 +99,9 @@ body {
   margin: 20px auto;
   font-weight: 400;
   width: 40rem; }
+  @media only screen and (max-width: 27em) {
+    .footer-cont {
+      font-size: 1.1rem; } }
 
 .nav {
   display: flex;
@@ -112,7 +115,7 @@ body {
   z-index: 100; }
   @media only screen and (max-width: 40em) {
     .nav {
-      padding: 0 3rem; } }
+      padding: 0 2rem; } }
   .nav__photo {
     height: 5rem;
     width: 4.75rem;
@@ -120,7 +123,7 @@ body {
     @media only screen and (max-width: 40em) {
       .nav__photo {
         height: 3rem;
-        width: 2.75rem; } }
+        width: 2.85rem; } }
 
 .nav-links {
   display: flex;
@@ -166,8 +169,8 @@ body {
     text-transform: uppercase; }
     @media only screen and (max-width: 40em) {
       .header__1 {
-        font-size: 3rem;
-        margin-left: 3rem; } }
+        font-size: 2.6rem;
+        margin-left: 2rem; } }
   .header__2 {
     font-size: 3.6rem;
     margin-left: 5rem;
@@ -176,8 +179,8 @@ body {
     color: #0e86d4; }
     @media only screen and (max-width: 40em) {
       .header__2 {
-        font-size: 3rem;
-        margin-left: 3rem; } }
+        font-size: 2.2rem;
+        margin-left: 2rem; } }
   .header__3 {
     font-size: 2.4rem;
     margin-left: 5rem;
@@ -185,8 +188,8 @@ body {
     color: #fff; }
     @media only screen and (max-width: 40em) {
       .header__3 {
-        margin-left: 3rem;
-        font-size: 2rem; } }
+        margin-left: 2rem;
+        font-size: 1.9rem; } }
 
 .icon {
   margin-right: 0.8rem;
@@ -198,7 +201,7 @@ body {
     margin-top: 1rem; }
     @media only screen and (max-width: 40em) {
       .icon__cont {
-        margin-left: 3rem; } }
+        margin-left: 2rem; } }
 
 .about-section {
   display: flex;
@@ -207,7 +210,7 @@ body {
   margin-left: 5rem; }
   @media only screen and (max-width: 68.75em) {
     .about-section {
-      margin-left: 3rem;
+      margin-left: 2rem;
       flex-direction: column; } }
   .about-section__about {
     border-left: 5px solid #0e86d4;
@@ -291,10 +294,10 @@ body {
     display: flex;
     justify-content: center;
     font-weight: 400; }
-    @media only screen and (max-width: 27em) {
+    @media only screen and (max-width: 40em) {
       .portfolio-section__subheader {
         margin-left: 1.2rem;
-        font-size: 1.4rem; } }
+        font-size: 1.3rem; } }
   .portfolio-section__img1 {
     width: 100%;
     height: 100%;

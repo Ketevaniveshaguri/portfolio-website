@@ -97,6 +97,8 @@
   font-size: 1.4rem;
   margin: 20px auto;
   font-weight: 400;
-
   width: 40rem;
+  @media only screen and (max-width: $bp-smallest) {
+    font-size: 1.1rem;
+  }
 }

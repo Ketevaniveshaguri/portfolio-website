@@ -20,7 +20,7 @@
   background-color: #fff;
   z-index: 100;
   @media only screen and (max-width: $bp-small) {
-    padding: 0 3rem;
+    padding: 0 2rem;
   }
   &__photo {
     height: 5rem;
@@ -29,7 +29,7 @@
 
     @media only screen and (max-width: $bp-small) {
       height: 3rem;
-      width: 2.75rem;
+      width: 2.85rem;
     }
   }
 }
@@ -85,8 +85,8 @@
     margin-left: 5rem;
     text-transform: uppercase;
     @media only screen and (max-width: $bp-small) {
-      font-size: 3rem;
-      margin-left: 3rem;
+      font-size: 2.6rem;
+      margin-left: 2rem;
     }
   }
   &__2 {
@@ -96,8 +96,8 @@
     font-weight: 500;
     color: #0e86d4;
     @media only screen and (max-width: $bp-small) {
-      font-size: 3rem;
-      margin-left: 3rem;
+      font-size: 2.2rem;
+      margin-left: 2rem;
     }
   }
   &__3 {
@@ -106,8 +106,8 @@
     font-weight: 500;
     color: #fff;
     @media only screen and (max-width: $bp-small) {
-      margin-left: 3rem;
-      font-size: 2rem;
+      margin-left: 2rem;
+      font-size: 1.9rem;
     }
   }
 }
@@ -122,7 +122,7 @@
     margin-left: 4.5rem;
     margin-top: 1rem;
     @media only screen and (max-width: $bp-small) {
-      margin-left: 3rem;
+      margin-left: 2rem;
     }
   }
 }
@@ -133,7 +133,7 @@
   background-color: #f3f3f3;
   margin-left: 5rem;
   @media only screen and (max-width: $bp-large) {
-    margin-left: 3rem;
+    margin-left: 2rem;
     flex-direction: column;
   }
 
@@ -231,9 +231,9 @@
     display: flex;
     justify-content: center;
     font-weight: 400;
-    @media only screen and (max-width: $bp-smallest) {
+    @media only screen and (max-width: $bp-small) {
       margin-left: 1.2rem;
-      font-size: 1.4rem;
+      font-size: 1.3rem;
     }
   }
   &__img1 {
@@ -248,7 +248,6 @@
       margin-left: 5rem;
     }
     @media only screen and (max-width: $bp-smallest) {
-      // max-width: 35.5rem;
       max-width: 88%;
     }
   }
