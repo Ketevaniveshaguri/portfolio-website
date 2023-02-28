@@ -1,3 +1,9 @@
+$bp-largest: 80em;
+$bp-large: 68.75em;
+$bp-medium: 50em;
+$bp-small: 40em;
+$bp-smallest: 27em;
+
 * {
   margin: 0;
   padding: 0;
@@ -7,6 +13,7 @@
 html {
   font-size: 62.5%;
   box-sizing: border-box;
+  overflow-x: hidden;
 }
 
 body {
@@ -15,4 +22,5 @@ body {
   color: #444;
   line-height: 1.6;
   background-color: #f3f3f3;
+  overflow-x: hidden;
 }

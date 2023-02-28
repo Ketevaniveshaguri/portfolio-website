@@ -8,7 +8,7 @@
     <title>Ketevan Veshaguri | Portfolio Website</title>
   </head>
   <body>
-    <header class="header">
+    <header id="header" class="header">
       <nav class="nav">
         <img
           src="img/331142147_1514097332331371_5577527299025029323_n.jpeg"
@@ -18,16 +18,16 @@
         />
         <ul class="nav-links">
           <li class="nav-links__item">
-            <a class="nav-links__link" href="">home</a>
+            <a class="nav-links__link" href="#header">home</a>
           </li>
           <li class="nav-links__item">
             <a class="nav-links__link" href="#about-section">about</a>
           </li>
           <li class="nav-links__item">
-            <a class="nav-links__link" href="">portfolio</a>
+            <a class="nav-links__link" href="#portfolio-section">portfolio</a>
           </li>
           <li class="nav-links__item">
-            <a class="nav-links__link" href="#">contact</a>
+            <a class="nav-links__link" href="#contact">contact</a>
           </li>
         </ul>
       </nav>
@@ -36,24 +36,39 @@
         <h2 class="header__2">I'm Ketevani</h2>
         <h3 class="header__3">Entry Level Front-End Developer</h3>
         <div class="icon__cont">
-          <img class="icon fb-icon" src="img/icons8-facebook-64.png" alt="" />
-          <img
-            class="icon linkedin-icon"
-            src="img/icons8-github-64.png"
-            alt=""
-          />
-          <img
-            class="icon github-icon"
-            src="img/icons8-linkedin-circled-64.png"
-            alt=""
-          />
+          <a href="https://twitter.com/qetevani_v">
+            <img
+              class="icon twitter-icon"
+              src="img/icons8-twitter-circled-50.png"
+              alt=""
+            />
+          </a>
+          <a href="https://www.linkedin.com/in/ketevan-veshaguri-21336120a/">
+            <img
+              class="icon linkedin-icon"
+              src="img/icons8-linkedin-circled-64.png"
+              alt=""
+            />
+          </a>
+          <a href="https://github.com/Ketevaniveshaguri">
+            <img
+              class="icon github-icon"
+              src="img/icons8-github-64.png"
+              alt=""
+            />
+          </a>
         </div>
       </div>
       <div class="btn">
-        <button class="btn__text btn--scroll-to">Let's work together</button>
+        <button
+          onclick="window.location.href='#contact';"
+          class="btn__text btn--scroll-to"
+        >
+          work with me
+        </button>
       </div>
     </header>
-    <section class="about-section">
+    <section id="about-section" class="about-section">
       <div class="about-cont">
         <p class="border-left"></p>
         <h1 class="about-section__about">About me</h1>
@@ -84,13 +99,15 @@
         </div>
       </div>
     </section>
-    <section class="portfolio-section">
+    <section id="portfolio-section" class="portfolio-section">
       <div>
         <h1 class="portfolio-section__header">portfolio</h1>
         <p class="portfolio-section__subheader">
           You can check my featured projects down below
         </p>
-        <div>
+      </div>
+      <div class="port">
+        <div class="portfolio-cont">
           <a href="https://ketevaniveshaguri.github.io/nexter-Real-Estate/">
             <img
               class="portfolio-section__img1"
@@ -98,11 +115,51 @@
               alt=""
             />
           </a>
+          <div>
+            <p class="portfolio-section__nexter-p">
+              project is designed by Jonas Schmedtman. Website is about
+              fictional luxury real estate agency called Nexter.
+            </p>
+          </div>
+        </div>
+
+        <div class="portfolio-cont2">
+          <div>
+            <p class="portfolio-section__tip-p">
+              design is taken from figma. The Tip Calculator calculates tip
+              amount for various percentages of the cost of the service, and
+              also provides a total amount that includes the tip
+            </p>
+          </div>
+
+          <a href="https://ketevaniveshaguri.github.io/Tip-calculator-app/">
+            <img
+              class="portfolio-section__img2"
+              src="img/Screenshot 2023-02-26 at 20.02.18.png"
+              alt=""
+            />
+          </a>
+        </div>
+        <div class="portfolio-cont3">
+          <a href="https://ketevaniveshaguri.github.io/fylo-landing-page/">
+            <img
+              class="portfolio-section__img3"
+              src="img/Screenshot 2023-02-26 at 20.04.17.png"
+              alt=""
+            />
+          </a>
+          <div>
+            <p class="portfolio-section__fylo-p">
+              design is taken from figma.Fylo stores your most important files
+              in one secure location. Access them wherever you need, share and
+              collaborate with friends, family, and co-workers.
+            </p>
+          </div>
         </div>
       </div>
     </section>
 
-    <section class="contact">
+    <section id="contact" class="contact">
       <div class="center">
         <h2 class="contact__header">Get In Touch</h2>
       </div>
@@ -135,6 +192,11 @@
         <button class="contact__btn" type="submit">Submit</button>
       </form>
     </section>
+    <footer>
+      <div class="footer-cont">
+        <p>&copy copyright 2023 designed and buiilt by Ketevan Veshaguri.</p>
+      </div>
+    </footer>
     <script src="js/script.js"></script>
   </body>
 </html>
