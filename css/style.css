@@ -101,7 +101,9 @@ body {
   width: 40rem; }
   @media only screen and (max-width: 27em) {
     .footer-cont {
-      font-size: 1.1rem; } }
+      font-size: 1.1rem;
+      width: 30rem;
+      margin: 20px auto; } }
 
 .nav {
   display: flex;
@@ -251,7 +253,7 @@ body {
   grid-gap: 1rem; }
   @media only screen and (max-width: 40em) {
     .grid-container {
-      grid-template-columns: 60px 60px 60px 100px; } }
+      grid-template-columns: 62px 60px 63px 104px; } }
 
 .grid-item {
   display: flex;
